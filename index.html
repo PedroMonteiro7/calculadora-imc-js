@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULE SEU IMC</h1>
+    </header>
+    <main>
+        <section class="categorias">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categorias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IMC abaixo de 18.5</td>
+                        <td>Abaixo do peso</td>
+                    </tr>
+                    <tr>
+                        <td>IMC 18.5 - 24.9</td>
+                        <td>Peso ideal</td>
+                    </tr>
+                    <tr>
+                        <td>IMC 25.0 - 29.9</td>
+                        <td>Acima do peso</td>
+                    </tr>
+                    <tr>
+                        <td>IMC 30.0 - 34.9</td>
+                        <td>Obesidade grau I</td>
+                    </tr>
+                    <tr>
+                        <td>IMC 35.0 - 39.9</td>
+                        <td>Obesidade grau II</td>
+                    </tr>
+                    <tr>
+                        <td>IMC maior do que 40</td>
+                        <td>Obesidade grau III</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="calculadora">
+            <form>
+                <div class="campo">
+                    <label>Nome:</label>
+                    <input type="text">
+                </div>
+                <div class="campo">
+                    <label>Altura:</label>
+                    <input type="text">
+                </div>
+                <div class="campo">
+                    <label>Peso:</label>
+                    <input type="text">
+                </div>
+                <button type="button">CALCULAR</button>
+                <div id="resultado"></div>
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+            <span>Copyright &copy; 2021 | Pedro Monteiro</span>
+    </footer>
+</body>
+</html>
