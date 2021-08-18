@@ -137,6 +137,14 @@ footer span{
     font-weight: 200;
 }
 
+.parabens {
+    color: green;
+}
+
+.cuidado {
+    color: red;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .categorias {
